@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 1rem;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  color: #0051a8;
+}
+.signal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #28a745;
+  transition: all 0.3s ease-in-out;
+}
+.card.sell {
+  border-left-color: #dc3545;
+}
+.card h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+.card p {
+  margin: 0.5rem 0;
+}
+.card .type {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #888;
+  font-size: 0.9rem;
+}
+.updated {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
